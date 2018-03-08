@@ -1,0 +1,22 @@
+kumuluzee:
+  name: customer-service
+  env:
+    name: dev
+  version: 1.0.0
+  server:
+    base-url: http://localhost:8081
+    http:
+      port: 8081
+  config:
+    etcd:
+      hosts: http://localhost:2379
+  discovery:
+    etcd:
+      hosts: http://localhost:2379
+    ttl: 20
+    ping-interval: 15
+
+rest-config:
+  string-property: Monday
+  integer-property: 23
+  boolean-property: true

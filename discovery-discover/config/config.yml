@@ -1,0 +1,4 @@
+kumuluzee:
+  discovery:
+    etcd:
+      hosts: http://localhost:2379
