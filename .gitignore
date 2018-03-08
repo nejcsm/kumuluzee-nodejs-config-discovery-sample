@@ -1,4 +1,4 @@
 discovery-discover/node_modules
-discovery-register/node_modules
+discovery-config-register/node_modules
 discovery-discover/package-lock.json
-discovery-register/package-lock.json
+discovery-config-register/package-lock.json
